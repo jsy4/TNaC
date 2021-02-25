@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Design Document
-description: People like building stuff.
+description: Why not make it prettier?
 ---
 <p>This is design.md</p>
