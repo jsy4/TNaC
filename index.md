@@ -4,10 +4,10 @@ title: Index
 description: This is our homepage.
 ---
 
-<p>This is index.md </p>
-[Problem Statement](https://jsy4.github.io/TNaC/problem) <br>
-[User Stories](https://jsy4.github.io/TNaC/userstories) <br>
-[Requirements](https://jsy4.github.io/TNaC/requirements) <br>
-[Architecture](https://jsy4.github.io/TNaC/architecture) <br>
-[Design Document](https://jsy4.github.io/TNaC/design) <br>
-[Test Report](https://jsy4.github.io/TNaC/testreport) <br>
+<p><b>Brief Introduction :</b> **Three is Not a Crowd** is a group formed from NMSU course CS370, working on the project _Virtual Retaliate_. </p>
+[Problem Statement](https://jsy4.github.io/TNaC/problem.html) <br>
+[User Stories](https://jsy4.github.io/TNaC/userstories.html) <br>
+[Requirements](https://jsy4.github.io/TNaC/requirements.html) <br>
+[Architecture](https://jsy4.github.io/TNaC/architecture.html) <br>
+[Design Document](https://jsy4.github.io/TNaC/design.html) <br>
+[Test Report](https://jsy4.github.io/TNaC/testreport.html) <br>
