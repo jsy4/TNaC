@@ -28,11 +28,10 @@ After defeating an enemy, the player will also receive experience points that wi
 The possible extension to this project will be including the music and sound effects. Again, our short term goal is to have the basic structure of a game and make it functional before adding onto the graphical and sound designs. Our team will be required to learn continuously and work together to implement the ideas to a usable program by the end of the semester.
 
 
-**Sample Domain Model for Problem statement: **
+<b>Sample Domain Model for Problem statement: </b>
 
-```markdown
 ![](https://user-images.githubusercontent.com/65105285/110419294-48b07a00-8056-11eb-9f7a-3b76ec3fb6cd.png?raw=true)
-```
+
 
 ## 4. System and Non-functional Requirements
 
