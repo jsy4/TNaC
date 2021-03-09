@@ -4,14 +4,15 @@ title: Problem Statement
 description: It could go on and on...
 ---
 
+
 ## 1. Introduction
 
-For our project, we are attempting to create a 3D virtual reality game where you progress through levels by defeating waves of enemies. The three biggest parts of our project that we have to get done are the level designs, user interaction, and enemy UI. 
+For our project, we are attempting to create a 3D virtual reality game where you progress through levels by defeating waves of enemies. The three biggest parts of our project that we have to get done are the level designs, user interaction, and enemy UI. We will be using Unity engine to develop our project with C# language.
 
 
 ## 2. General Description of Product
 
-Throughout the users playthrough, they will be moving through different environments and stages we’ll be referring to as “levels”. These levels will all be 3D environments that will allow the players to walk within a square room and fight the enemies. The player will only be able to walk around in these rooms, they won’t be able to climb, jump, or sprint while moving around. This presents a problem that we have to be able to keep the mechanics simple but enjoyable and have a replay value. In order to accomplish this task, we’ll be implementing enemies that the user will be able to fight against within these levels.
+Throughout the users play-through, they will be moving through different environments and stages we’ll be referring to as “levels”. These levels will all be 3D environments that will allow the players to walk within a square room and fight the enemies. The player will only be able to walk around in these rooms, they won’t be able to climb, jump, or sprint while moving around. This presents a problem that we have to be able to keep the mechanics simple but enjoyable and have a replay value. In order to accomplish this task, we’ll be implementing enemies that the user will be able to fight against within these levels.
 
 
 ## 3. Functional Requirements
@@ -26,9 +27,12 @@ After defeating an enemy, the player will also receive experience points that wi
 
 The possible extension to this project will be including the music and sound effects. Again, our short term goal is to have the basic structure of a game and make it functional before adding onto the graphical and sound designs. Our team will be required to learn continuously and work together to implement the ideas to a usable program by the end of the semester.
 
-Simple Domain Model for Problem statement: <br>
-![](https://user-images.githubusercontent.com/65105285/110419294-48b07a00-8056-11eb-9f7a-3b76ec3fb6cd.png?raw=true)
 
+**Sample Domain Model for Problem statement: **
+
+```markdown
+![](https://user-images.githubusercontent.com/65105285/110419294-48b07a00-8056-11eb-9f7a-3b76ec3fb6cd.png?raw=true)
+```
 
 ## 4. System and Non-functional Requirements
 
