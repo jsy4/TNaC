@@ -3,7 +3,7 @@ layout: default
 title: Problem Statement
 description: It could go on and on...
 ---
-## Introduction
+## 1. Introduction
 
 For our project, we are attempting to create a 3D virtual reality game where you progress through levels by defeating waves of enemies. The three biggest parts of our project that we have to get done are the level designs, user interaction, and enemy UI. 
 
