@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LvMgmt : MonoBehaviour
 {
-    public void GotoStart()
+    public void GotoMenu()
     {
-        SceneManager.LoadScene("Lv1");
+        SceneManager.LoadScene("Menu");
     }
     public void GotoLv1()
     {
@@ -24,10 +24,6 @@ public class LvMgmt : MonoBehaviour
     public void GotoLv4()
     {
         SceneManager.LoadScene("Lv4");
-    }
-    public void GoStartPage()
-    {
-        SceneManager.LoadScene("startmenu");
     }
 
 }
