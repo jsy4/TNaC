@@ -3,8 +3,6 @@ layout: default
 title: User Stories
 description: Every person has stories to tell.
 ---
-<p>User Stories</p>
-<p>This is userstories.md</p>
 
 ## 1.0: Movement Controls
 As a player I want to be able to look around the levels/environments in first person while being able to move around to enhance the virtual reality experience.
@@ -60,4 +58,28 @@ Constraints: No enemy spawning within certain radius of player
 Effort Estimation: 3 hours
 
 Acceptance Test: Player loaded into multiple levels and moving around the environment for an adequate amount of time. The enemies should never spawn too close to the player at any time during the test or they must only spawn in designated locations regardless of user location. 
+
+
+
+## 5.0: Game Installment
+As a player who likes playing on VR headsets (or on computer), I want the game to be enjoyable without a complicated installment of the game.
+
+Elaboration: The player should not feel discomfort in installment due to program flaws and they should be able to install the game within reasonable time.
+
+Constraints: The game have the equipment for the game controls and source where the software could be downloaded as mentioned in **1.0** and **2.0**.
+
+Effort Estimation: 2 person hours
+
+Acceptance Test: Test installing the gaming environment after the game is published. Preferably the installment should not be more than 2 hours.
+
+## 6.0: Game Integrity
+As a player who is afraid of installing broken programs, I want to know that the game is reliable enough to install on the computer system.
+
+Elaboration: The player should be able to know where the game is from and be able to trust the distributing party.
+
+Constraints: The game should have a section about the developers and clear purpose of the game and the player should be able to read it if they want to.
+
+Effort Estimation: 1 person hours
+
+Acceptance Test: The player will read the documentation about the program and feel enough confidence that this game wouldn't break their computer.
 
