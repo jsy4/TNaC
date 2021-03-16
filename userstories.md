@@ -59,6 +59,66 @@ Effort Estimation: 3 hours
 
 Acceptance Test: Player loaded into multiple levels and moving around the environment for an adequate amount of time. The enemies should never spawn too close to the player at any time during the test or they must only spawn in designated locations regardless of user location. 
 
+## 3: Level Progression
+As a player, I want to be able to level up as I play so that I can become stronger and live longer.
+
+## 3.1: Experience Points
+As a player, I want to be able to gain experience while I play so that I can level up.
+
+Elaboration: Users should have the ability to gain experience from the enemies that they defeat within each level.
+
+Constraints: None
+
+Effort Estimation: 5 person hours
+
+Acceptance Test: Have a bar that shows experience points earned, as well as how far until a level up and whether or not you have leveled up recently.
+
+## 3.2: Point Distribution
+As a player, I want to be able to distribute my level up points in a way that makes my build/play style unique every time.
+
+Elaboration: Users should have the ability to customize themselves after leveling up that way they can have a unique experience every playthrough, whether it be to increase the amount of health they have or the amount of damage they do.
+
+Constraints: None
+
+Effort Estimation: 5 person hours
+
+Acceptance Test: Have visible signs/statistics that show what your new skills, health, damage, etc., and have them be able to be felt through gameplay.
+
+## 4: Weapon Customization
+As a player, I want to be able to customize what weapons I use throughout a playthrough so that I’m not the same every time.
+
+## 4.1: Different Weapons
+As a player, I want to be able to pick up weapons from fallen enemies so that I can become stronger through playing the game.
+
+Elaboration: Users will be able to defeat enemies and have a chance of the enemy dropping a weapon. When the enemy drops it, the user will be able to pick it up and use it.
+
+Constraints: Limited loot pool and random-number generation will dictate how often items fall.
+
+Effort Estimation: 6 person hours
+
+Acceptance Test: Defeat an enemy and be able to pick up a weapon off the ground that it drops. Be able to inspect the weapon as well as equip it before grabbing it.
+
+## 4.2: Inventory
+As a player, I want to be able to pick up different weapons and hold onto them for later use, or empty out my inventory from ones I don’t want anymore so that I can use specific weapons in special circumstances.
+
+Elaboration: Users will be able to use and access all weapons they find, as well as get rid of ones they find obsolete or don’t want anymore.
+
+Constraints: Be able to store the data of each weapon in the users inventory.
+
+Effort Estimation: 4 person hours
+
+Acceptance Test: Have a menu that the player can click on to access all the weapons they have picked up along their playthrough. Then, have an equip button that puts any weapon in their inventory in their hand, or a delete button that gets rid of any item in their hand.
+
+## 4.3: Weapon Effects
+As a player, I want to be able to pick up weapons that have unique abilities so that I’m not just grabbing weapons that deal more damage every time.
+
+Elaboration: Users will be able to acquire weapons that can do extra effects such as knock enemies away more, slow them down, or deal more damage in the way of status effects such as fire, ice, or lightning.
+
+Constraints: Each weapon won’t always have a unique effect, and we’d have to attach these effects to every weapon if they’re on it.
+
+Effort Estimation: 6 person hours
+
+Acceptance Test: Be able to inspect a weapon with a specific effect and notice it visually on the screen. For example, if the enemy should get knocked back more, make the knockback noticeable, or if the enemy should take fire damage, have a fire effect displayed on screen and on the enemy.
 
 
 ## 5.0: Game Installment
