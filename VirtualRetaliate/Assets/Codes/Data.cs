@@ -5,13 +5,11 @@ using UnityEngine;
 [System.Serializable]
 public class Data {
 
-    public int Lv;
-    public int Hp;
+    public static int Lv;
+    public static int Hp;
     public float[] position;
 
     public Data (Player player) {
-        Lv = player.Lv;
-        Hp = player.Hp;
 
         position = new float[3];
         position[0] = player.transform.position.x;

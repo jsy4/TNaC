@@ -65,12 +65,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Codes\Data.cs" />
+    <Compile Include="Assets\Codes\HpDisplay.cs" />
+    <Compile Include="Assets\Codes\LvDisplay.cs" />
     <Compile Include="Assets\Codes\LvMgmt.cs" />
     <Compile Include="Assets\Codes\MoveEnemy.cs" />
     <Compile Include="Assets\Codes\MovePlayer.cs" />
     <Compile Include="Assets\Codes\Player.cs" />
+    <Compile Include="Assets\Codes\PlayerCollision.cs" />
     <Compile Include="Assets\Codes\ReadWriteData.cs" />
-    <Compile Include="Assets\ScoreMgmt.cs" />
+    <None Include="Assets\player.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

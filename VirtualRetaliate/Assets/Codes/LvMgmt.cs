@@ -26,4 +26,15 @@ public class LvMgmt : MonoBehaviour
         SceneManager.LoadScene("Lv4");
     }
 
+    public void GotoWeaponary()
+    {
+        SceneManager.LoadScene("Weaponary"); 
+        //possibly store weapon data on a file with numbering system
+    }
+
+    public void GotoSettings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
+
 }
