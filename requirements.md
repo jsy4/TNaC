@@ -41,7 +41,7 @@ The product will ideally operate in a virtual reality setting. The user will wea
 
 
 ### 2.2 Domain Model with Description
-![sampleModel](https://user-images.githubusercontent.com/65105285/112574367-b9c09300-8db3-11eb-93e5-bc9bce23f6f2.png?raw=true)
+![sampleModel](https://user-images.githubusercontent.com/65105285/112574367-b9c09300-8db3-11eb-93e5-bc9bce23f6f2.png?raw=true)  
 Main menu allows Player to choose weapons and select Levels. 
 Player has Hp = 10, Lv = 1 from the starting of the game. When contacting enemy, player healpth decreases and when dead, player goes to main page with Hp set to 10 again.
 Enemy is decreased by choice of player's Weapon and spawns from set locations and drops items when dead.
