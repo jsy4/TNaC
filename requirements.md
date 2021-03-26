@@ -65,8 +65,7 @@ For our game, we will be requiring that for the full experience the user will be
 
 
 ## 3. Functional Requirements
-[User Stories](https://jsy4.github.io/TNaC/userstories)
-
+Click [User Stories](https://jsy4.github.io/TNaC/userstories) to see more.
 
 ## 4. System and Non-functional Requirements
 
