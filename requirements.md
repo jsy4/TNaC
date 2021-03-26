@@ -28,29 +28,29 @@ Level design - level themes.
 Gears - computer / VR headset and joy sticks.  
 
 
-### 1.4 References  
+### 1.4 References
+
 Unity asset store - https://assetstore.unity.com/
 
 
 ## 2. General Description of Product
+
 Our product will be built in Unity as a 3D/VR game where you will be a first-person character going walking around a 3D environment fighting against waves of enemies. As a player, you will be able to fight these waves of enemies coming at you and gain experience points, pick up weapons dropped randomly by enemies, and level up. When leveling up, you will be able to distribute your experience points and be able to improve your stats, including but not limited to health, damage done, and damage taken. We have also decided that the health system we will be using for the player will be hearts, and you will not be able to heal while in your current level, but instead once you beat the level and move onto the next stage you will fully heal. This will incentivise players to be careful and work efficiently, safely, and tactfully when fighting enemies rather than being reckless. Also, when defeating an enemy, they will have a small chance to drop a pre-set weapon from a table of potential drops. As levels progress, the weapons within the table will improve in terms of quality, damage, and possibly the rate at which weapons would drop as well.
 
 
 ### 2.1 Context of Product
+
 The product will ideally operate in a virtual reality setting. The user will wear a headset to look around the maps, while moving using handheld controllers with buttons and joysticks. If not, it would be a computer game.
 
 
 ### 2.2 Domain Model with Description
+
 ![sampleModel](https://user-images.githubusercontent.com/65105285/112574367-b9c09300-8db3-11eb-93e5-bc9bce23f6f2.png?raw=true)  
-Main menu allows Player to choose weapons and select Levels with use of LvMgmt.   
-Player has Hp = 10, Lv = 1 from the starting of the game.  
-When contacting enemy, player healpth decreases and when dead, player goes to main page with Hp set to 10 again.  
-Enemy is decreased by choice of player's Weapon and spawns from set locations and drops items when dead.  
+Explaining of model: Main menu allows Player to choose weapons and select Levels with use of LvMgmt. Player has Hp = 10, Lv = 1 from the starting of the game. When contacting enemy, player healpth decreases and when dead, player goes to main page with Hp set to 10 again. Enemy is decreased by choice of player's Weapon and spawns from set locations and drops items when dead.
 
 
 ### 2.3 Product Functions (general)
-Basic overview of the capabilities of your product. This is not your list of functional requirements, but an overview. Part of your problem statement might be good here.
-The product is able to run
+The program is designed for individual play. The movement of the Player will be limited; however, the game would be functional.
  
  
 ### 2.4 User Characteristics and Expectations
@@ -72,29 +72,29 @@ Click [User Stories](https://jsy4.github.io/TNaC/userstories) to see more.
 
 ### 4.1 External Interface Requirements (User,Hardware,Software,Communications)
 
-**NF.4.1.1** The device running our game must be able to connect, either physically with wired connections or remotely to a virtual reality headset and controllers. Alternatively the user can use keyboard controls from a computer.
-**NF.4.1.2** The game can run on both Mac OS and Windows 10.
+**NF.4.1.1** The device running our game must be able to connect, either physically with wired connections or remotely to a virtual reality headset and controllers. Alternatively the user can use keyboard controls from a computer.  
+**NF.4.1.2** The game can run on both Mac OS and Windows 10.  
 
 
 ### 4.2 Performance Requirements
 
-**NF.4.2.1** USB 3.0 or faster required on computer.
-**NF.4.2.2** 8GB RAM or more memory required on computer.
+**NF.4.2.1** USB 3.0 or faster required on computer.  
+**NF.4.2.2** 8GB RAM or more memory required on computer.  
 
 
 ### 4.3 Design Constraints
 
-**NF.4.3.1** The graphic design of the game will be simplistic (geometric / or assets from the unity asset store).
+**NF.4.3.1** The graphic design of the game will be simplistic (geometric / or assets from the unity asset store).  
  
  
 ### 4.4 Quality Requirements
 
-**NF.4.4.1** The quality of this product requires the playable game for the user. The gears are properly functioning without any possible harm to the user.
+**NF.4.4.1** The quality of this product requires the playable game for the user. The gears are properly functioning without any possible harm to the user.  
 
 ### 4.5 Other Requirements
 
-**NF.4.5.1** The user should consent to the form saying that there may be a possible motion sickness.
+**NF.4.5.1** The user should consent to the form saying that there may be a possible motion sickness.  
  
 ## 5. Appendices
-~~blank.~~  Unity asset store - https://assetstore.unity.com/
+~~blank.~~ 
 
