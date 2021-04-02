@@ -4,6 +4,12 @@ title: Architecture
 description: People like building stuff.
 ---
 
+### Our Group
+  * Team name: Three’s Not a Crowd
+  * Project: Virtual Retaliate
+  * Team members: Miguel Fernandez, Zackery Meyer, Jisun Yoo
+   
+
 ### Project Overview 
 
 What we are working on is a 3D/VR game. Player has Hp (health) and Lv (level) which will change throughout the game. Levels will have different themes, and it will be composed of enemies spawning from set places to decrease player health. Player will eliminate the enemies and increase level while obtaining new weapons.
