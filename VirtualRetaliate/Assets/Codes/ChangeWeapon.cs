@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class ChangeWeapon : MonoBehaviour
 {
+    public static int weapon = 0;
     public int selectedWeapon = 0;
+    public void setWeapon(int newWeapon) 
+    {
+        weapon = newWeapon;
+        selectedWeapon = newWeapon; // FIXME!
+        Debug.Log("Select Weapon called : setWeapon " + newWeapon);
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {

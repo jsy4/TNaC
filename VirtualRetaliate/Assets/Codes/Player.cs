@@ -9,9 +9,10 @@ public class Player : MonoBehaviour
     //instantiate Lv and Hp
     public static int Lv = 1;
     public static int Hp = 10;
-    public int weapon = 1;
+    public static int weapon = 1;
     public static int getLv() { return Lv; }
     public static int getHp() { return Hp;  }
+    public static int getWeapon() { return weapon; }
     public void SavePlayer()
     {
         ReadWriteData.SaveData(this);
