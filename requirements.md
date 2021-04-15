@@ -8,7 +8,7 @@ description: People need joy in their life.
 
 ### 1.1 Purpose of Product
 
-The program we are trying to create is a 3D/VR game that implements melee combat against enemies that can move around and attack the user. The user will be able to move around, pick up weapons, and level up in our game.
+The program we are trying to create is a 3D game that implements melee combat against enemies that can move around and attack the user. The user will be able to move around, pick up weapons, and level up in our game.
 
 
 ### 1.2 Scope of Product
@@ -19,13 +19,13 @@ The product will allow the user to explore different maps and fight the waves of
 ### 1.3 Acronyms, Abbreviations, Definitions
 
 TNaC (Three is Not a Crowd) - The developer group name  
-Maps / Lv - the different 3D levels with unique themes and difficulty. Lv is an abbreviation for level.  
+Maps / Lv - The different 3D levels with unique themes and difficulty. Lv is an abbreviation for level.  
 Attackers / enemies - Non-playable characters that the user must fend off in each level in order to advance in the game. Ragdoll is the name we are using to describe the models of the enemies.  
 Hearts - This will be the player's health.  
-Product / project / game - refers to the project Virtual Retaliate.  
-Main page - displays all the levels and user setting.  
-Level design - level themes.  
-Gears - computer / VR headset and joy sticks.  
+Product/Project/Game - Refer to the project Virtual Retaliate.  
+Main page - Displays all the levels and user setting.  
+Level design - Level themes.  
+Gears - Computer with keyboard and mouse. 
 
 
 ### 1.4 References
@@ -35,12 +35,12 @@ Unity asset store - https://assetstore.unity.com/
 
 ## 2. General Description of Product
 
-Our product will be built in Unity as a 3D/VR game where you will be a first-person character going walking around a 3D environment fighting against waves of enemies. As a player, you will be able to fight these waves of enemies coming at you and gain experience points, pick up weapons dropped randomly by enemies, and level up. When leveling up, you will be able to distribute your experience points and be able to improve your stats, including but not limited to health, damage done, and damage taken. We have also decided that the health system we will be using for the player will be hearts, and you will not be able to heal while in your current level, but instead once you beat the level and move onto the next stage you will fully heal. This will incentivise players to be careful and work efficiently, safely, and tactfully when fighting enemies rather than being reckless. Also, when defeating an enemy, they will have a small chance to drop a pre-set weapon from a table of potential drops. As levels progress, the weapons within the table will improve in terms of quality, damage, and possibly the rate at which weapons would drop as well.
+Our product will be built in Unity as a 3D game where you will be a first-person character going walking around a 3D environment fighting against waves of enemies. As a player, you will be able to fight these waves of enemies coming at you and gain experience points, pick up weapons dropped randomly by enemies, and level up. When leveling up, you will be able to distribute your experience points and be able to improve your stats, including but not limited to health, damage done, and damage taken. We have also decided that the health system we will be using for the player will be hearts, and you will not be able to heal while in your current level, but instead once you beat the level and move onto the next stage you will fully heal. This will incentivise players to be careful and work efficiently, safely, and tactfully when fighting enemies rather than being reckless. Also, when defeating an enemy, they will have a small chance to drop a pre-set weapon from a table of potential drops. As levels progress, the weapons within the table will improve in terms of quality, damage, and possibly the rate at which weapons would drop as well.
 
 
 ### 2.1 Context of Product
 
-The product will ideally operate in a virtual reality setting. The user will wear a headset to look around the maps, while moving using handheld controllers with buttons and joysticks. If not, it would be a computer game.
+The product will operate in a 3D closed area where you will use WASD or arrow keys to move around while using your mouse to look in the direction you want to go.
 
 
 ### 2.2 Domain Model with Description
@@ -62,7 +62,7 @@ Player health will not be able to be refilled at any point during a level. The p
 
 
 ### 2.6 Assumptions and Dependencies
-For our game, we will be requiring that for the full experience the user will be using a Virtual Reality equiptment in order to look around and traverse the environment. However, if they do not have access to these devices then we will have a built in option to use keyboard and mouse bindings. For system assumptions, the user will need to have a system that is able to run Unity and connect to the VR headset. This is quite demanding, so I’m sure not all users will be able to run our game.
+For our game, we will have a built in option to use keyboard and mouse bindings, either using WASD or arrow keys in order to move around. The user would also need to be able to run Unity while playinf our game. This is quite demanding, so I’m sure not all users will be able to run our game.
 
 
 ## 3. Functional Requirements
@@ -72,8 +72,8 @@ Click [User Stories](https://jsy4.github.io/TNaC/userstories) to see more.
 
 ### 4.1 External Interface Requirements (User,Hardware,Software,Communications)
 
-**NF.4.1.1** The device running our game must be able to connect, either physically with wired connections or remotely to a virtual reality headset and controllers. Alternatively the user can use keyboard controls from a computer.  
-**NF.4.1.2** The game can run on both Mac OS and Windows 10.  
+**NF.4.1.1** The device running our game must be able to connect and use keyboard and mouse controls from a computer.
+**NF.4.1.2** The game can run on both Mac OS and Windows 10.
 
 
 ### 4.2 Performance Requirements
