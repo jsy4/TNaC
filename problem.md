@@ -7,7 +7,7 @@ description: It could go on and on...
 
 ## 1. Introduction
 
-For our project, we are attempting to create a 3D virtual reality game where you progress through levels by defeating waves of enemies. The three biggest parts of our project that we have to get done are the level designs, user interaction, and enemy UI. We will be using Unity engine to develop our project with C# language.
+For our project, we are attempting to create a 3D closed world game where you progress through levels by defeating waves of enemies. The three biggest parts of our project that we have to get done are the level designs, user interaction, and enemy UI. We will be using Unity engine to develop our project with C# language.
 
 
 ## 2. General Description of Product
@@ -35,4 +35,4 @@ The possible extension to this project will be including the music and sound eff
 
 ## 4. System and Non-functional Requirements
 
-The device running our game must be able to connect, either physically with wired connections or remotely to a virtual reality headset and controllers. Alternatively the user can use keyboard controls from a computer. The targeted platform will be android. The current concern is that we are developing in unity 3D before testing with VR controllers, but we are hoping to convert when we have the basic mechanics down. If not, we will probably end up having a 3D game.
+The device running our game must be able to use keyboard controls from a computer and a mouse in order to tranverse stages, using the mouse to look around and use the keyboard to move and interact with objects and enemies. The targeted platform will be android. The current concern is that there will be buggy physics while the user is interacting with enemies and weapons, however we are sure we'll be able to resolve this issue.
