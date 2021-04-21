@@ -11,10 +11,13 @@ public class Player : MonoBehaviour
     //also clean up codes by combining extra classes written
     public static int Lv = 1; 
     public static int Hp = 10;
-    public static int weapon = 1;
+    public static int weapon;
     public static int getLv() { return Lv; }
     public static int getHp() { return Hp;  }
     public static int getWeapon() { return weapon; }
+    public static void setLv(int v) { Lv = v; }
+    public static void setHp(int h) { Hp = h; }
+    public static void setWeapon(int w) { weapon = w; }
     public void SavePlayer()
     {
         ReadWriteData.SaveData(this);

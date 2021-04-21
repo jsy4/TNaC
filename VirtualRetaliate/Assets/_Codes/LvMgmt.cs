@@ -11,7 +11,7 @@ public class LvMgmt : MonoBehaviour
     }
     public void GotoLv1()
     {
-        SceneManager.LoadScene("Lv1");
+        SceneManager.LoadScene("Lv1"); 
     }
     public void GotoLv2()
     {

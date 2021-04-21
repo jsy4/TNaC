@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class ChangeWeapon : MonoBehaviour
 {
-    public static int weapon = 0;
-    public int selectedWeapon = 0;
+    public int selectedWeapon;
     public void setWeapon(int newWeapon) 
     {
-        weapon = newWeapon;
         selectedWeapon = newWeapon; // FIXME!
         Debug.Log("Select Weapon called : setWeapon " + newWeapon);
+        Player.setWeapon(selectedWeapon);
 
     }
 
