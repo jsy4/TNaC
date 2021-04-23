@@ -67,6 +67,7 @@
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\MouseLook.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Volume.cs" />
     <Compile Include="Assets\WeaponDisplay.cs" />
     <Compile Include="Assets\_Codes\CameraFollow.cs" />
     <Compile Include="Assets\_Codes\ChangeWeapon.cs" />

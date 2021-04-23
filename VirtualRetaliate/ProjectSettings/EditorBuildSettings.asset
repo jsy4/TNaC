@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Lv4.unity
     guid: cc28b099ce014b34aa6bfef0f1a5bfa6
   - enabled: 1
-    path: Assets/_Scenes/SampleScene.unity
+    path: Assets/_Scenes/Citations.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

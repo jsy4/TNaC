@@ -648,6 +648,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -661,10 +662,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 005ff87f-0532-4d6a-9e8b-dc9b0d5a7bfe
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: VirtualRetaliate
+  organizationId: uj4u
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
