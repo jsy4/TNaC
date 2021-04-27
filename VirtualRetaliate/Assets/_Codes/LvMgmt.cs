@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LvMgmt : MonoBehaviour
 {
+    static Player player;
     public void GotoMenu()
     {
         SceneManager.LoadScene("Menu");
@@ -26,15 +27,9 @@ public class LvMgmt : MonoBehaviour
         SceneManager.LoadScene("Lv4");
     }
 
-    public void GotoWeaponary()
+    public void GotoCitations()
     {
-        SceneManager.LoadScene("Weaponary"); 
-        //possibly store weapon data on a file with numbering system
-    }
-
-    public void GotoSettings()
-    {
-        SceneManager.LoadScene("Settings");
+        SceneManager.LoadScene("Citations");
     }
 
 }
