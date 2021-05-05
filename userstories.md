@@ -88,15 +88,15 @@ Acceptance Test: Have visible signs/statistics that show what your new skills, h
 As a player, I want to be able to customize what weapons I use throughout a playthrough so that I’m not the same every time.
 
 ## 4.1: Different Weapons
-As a player, I want to be able to pick up weapons from fallen enemies so that I can become stronger through playing the game.
+As a player, I want to be able to get new weapons as I progress so that I can become stronger through playing the game.
 
-Elaboration: Users will be able to defeat enemies and have a chance of the enemy dropping a weapon. When the enemy drops it, the user will be able to pick it up and use it.
+Elaboration: Users will be able to defeat enemies and have a chance of getting a new weapon when leveling up. When the weapon is acquired, the user will be able to equip it from their inventory (see below) and use it.
 
-Constraints: Limited loot pool and random-number generation will dictate how often items fall.
+Constraints: Limited loot pool and random-number generation will dictate how often items are awarded.
 
 Effort Estimation: 6 person hours
 
-Acceptance Test: Defeat an enemy and be able to pick up a weapon off the ground that it drops. Be able to inspect the weapon as well as equip it before grabbing it.
+Acceptance Test: Defeat enemies to level up and get a weapon with some random chance. Be able to inspect the weapon as well as equip it.
 
 ## 4.2: Inventory
 As a player, I want to be able to pick up different weapons and hold onto them for later use, or empty out my inventory from ones I don’t want anymore so that I can use specific weapons in special circumstances.
