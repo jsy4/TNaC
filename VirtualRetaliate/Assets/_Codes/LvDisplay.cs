@@ -9,7 +9,6 @@ public class LvDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ReadWriteData.LoadData(); //this loads player data
         Lv_text = GetComponent<Text>();
         Lv_text.text = "Level: " + Player.getLv();
     }

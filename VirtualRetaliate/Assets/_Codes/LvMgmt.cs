@@ -5,8 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LvMgmt : MonoBehaviour
 {
+    void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "Menu" )
+            Cursor.lockState = CursorLockMode.None;
+        if (SceneManager.GetActiveScene().name == "Citations")
+            Cursor.lockState = CursorLockMode.None;
+    }
     public void GotoMenu()
     {
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("Menu");
     }
     public void GotoLv1()
@@ -26,15 +34,11 @@ public class LvMgmt : MonoBehaviour
         SceneManager.LoadScene("Lv4");
     }
 
-    public void GotoWeaponary()
+    public void GotoCitations()
     {
-        SceneManager.LoadScene("Weaponary"); 
-        //possibly store weapon data on a file with numbering system
+        SceneManager.LoadScene("Citations");  
     }
 
-    public void GotoSettings()
-    {
-        SceneManager.LoadScene("Settings");
-    }
+ 
 
 }

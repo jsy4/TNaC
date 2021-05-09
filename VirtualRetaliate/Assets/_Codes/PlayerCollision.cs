@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -31,6 +32,13 @@ public class PlayerCollision : MonoBehaviour
         }
         else
         { Debug.Log("the player colided with " + collision.collider.name); }
+
+        if (Player.Hp <= 0)
+        {
+            Debug.Log("you died...");
+            Player.Hp = 10; //after death, direct to main page and refill health
+            SceneManager.LoadScene("Menu");
+        }
     }
     //from : https://youtu.be/gAB64vfbrhI
 

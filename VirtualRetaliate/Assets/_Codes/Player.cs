@@ -39,8 +39,9 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Change Hp (" + Hp +") with " + health);
         Hp -= health;
-        if (Hp <= 0) 
+        if (Hp <= 0)
         {
+            Cursor.lockState = CursorLockMode.None;
             Debug.Log("you died...");
             Hp = 10; //after death, direct to main page and refill health
             SceneManager.LoadScene("Menu");

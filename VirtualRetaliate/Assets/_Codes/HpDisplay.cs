@@ -8,8 +8,7 @@ public class HpDisplay : MonoBehaviour
     Text Hp_text;
     // Start is called before the first frame update
     void Start()
-    {
-        ReadWriteData.LoadData();
+    { 
         Hp_text = GetComponent<Text>();
         Hp_text.text = "Health: " + Player.getHp();
     }
