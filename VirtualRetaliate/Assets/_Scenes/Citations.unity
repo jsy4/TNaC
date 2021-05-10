@@ -849,7 +849,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 889765456}
   m_HandleRect: {fileID: 889765455}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.326
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1394,7 +1394,14 @@ MonoBehaviour:
     licensed under CC-BY\r\nLink: \r\nhttps://freemusicarchive.org/music/comounjardin/Bonus_Beat_Blast_2011/14_como_un_jardin-monte\r\n\r\nLv4\r\nTitle
     and author : The Narrative Changes by Revolution Void\r\nCopyright: The Narrative
     Changes by Revolution Void is licensed under a Creative Commons Attribution License.\r\nDisclaimer:
-    audio source is licensed under CC-BY\r\nLink: https://freemusicarchive.org/music/Revolution_Void/The_Politics_of_Desire/revolution_void_-_09_-_the_narrative_changes\r\n\r\n"
+    audio source is licensed under CC-BY\r\nLink: https://freemusicarchive.org/music/Revolution_Void/The_Politics_of_Desire/revolution_void_-_09_-_the_narrative_changes\r\n\r\nNote:
+    All asset packs used for the scene design were found for free in the Unity Asset
+    Store at https://assetstore.unity.com/top-assets/top-free\n\nThe specific assets
+    used were as follows:\n\nSci-Fi Styled Modular Pack\nFabrications used primarily
+    in Lv2 but also in Lv4\nLink: https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913\n\nSnaps
+    Prototype | Office\nFabrications used in Lv4\nLink: https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490\n\nNature
+    Starter Kit 2\nFabrications used in Lv3\nLink: https://assetstore.unity.com/packages/3d/environments/nature-starter-kit-2-52977\n\nRocks
+    and Boulders 2\nFabrications used in Lv3\nLink: https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947\n"
 --- !u!222 &1830944831
 CanvasRenderer:
   m_ObjectHideFlags: 0

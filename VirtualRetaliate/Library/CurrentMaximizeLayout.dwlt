@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 392}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 529
+  controlID: 14750
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 392}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 530
+  controlID: 14751
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 531
+  controlID: 14752
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,9 +232,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 42.56125, y: -34.666496, z: 49.780716}
+    m_Target: {x: 260.82, y: 28.899994, z: 0}
     speed: 2
-    m_Value: {x: 42.56125, y: -34.666496, z: 49.780716}
+    m_Value: {x: 260.82, y: 28.899994, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -280,13 +280,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.29226995, y: 0.34435758, z: -0.11373686, w: 0.88491666}
+    m_Target: {x: -0.27680027, y: 0.01727197, z: -0.0050018537, w: -0.96079487}
     speed: 2
-    m_Value: {x: 0.2922674, y: 0.34435457, z: -0.11373587, w: 0.884909}
+    m_Value: {x: -0.2767908, y: 0.017271379, z: -0.005001683, w: -0.960762}
   m_Size:
-    m_Target: 45.653206
+    m_Target: 348.66663
     speed: 2
-    m_Value: 45.653206
+    m_Value: 348.66663
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -402,34 +402,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SceneAssets/Sci-Fi Styled Modular Pack/Prefabs/Lights
+    - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SceneAssets/Sci-Fi Styled Modular Pack/Prefabs/Lights
+  - Assets/_Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zmeye\Desktop\Spring 2021\CS371\Git Programs\TNaC\VirtualRetaliate
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 170}
-    m_SelectedIDs: 725d0000
-    m_LastClickedID: 23922
-    m_ExpandedIDs: 00000000fc550000fe550000005600000256000004560000065600001a560000fa560000c65c0000d85c000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 923c0000
+    m_LastClickedID: 15506
+    m_ExpandedIDs: 000000004e3c0000503c0000523c0000543c0000563c0000583c0000923c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Models
-      m_OriginalName: Models
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 22910
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -443,7 +443,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc550000fe5500000056000002560000045600000656000000ca9a3b
+    m_ExpandedIDs: 000000004e3c0000503c0000523c0000543c0000563c0000583c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,8 +468,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a02cffff
-    m_LastClickedInstanceID: -54112
+    m_SelectedInstanceIDs: b03c0000
+    m_LastClickedInstanceID: 15536
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -495,7 +495,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 273}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
@@ -608,7 +608,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a22cffffc04fffff1074ffff307effff947effffe87fffff1281ffffe681ffff
+      m_ExpandedIDs: 663fffffb84fffff5059ffff5c61ffff9061ffffe463ffff027fffff4e7fffff0491ffff46bdffffb6c4ffff68fbffff2e650000386500008a650000b2660000bc6600000e670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -694,5 +694,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -54112
+  m_LastInspectedObjectInstanceID: 15536
   m_LastVerticalScrollValue: 0
