@@ -96,5 +96,5 @@ Click [User Stories](https://jsy4.github.io/TNaC/userstories) to see more.
 **NF.4.5.1** The user should consent to the form saying that there may be a possible motion sickness.  
  
 ## 5. Appendices
-~~blank.~~ 
+All assets are referenced in the credits/citations page of our game. You can access this by clicking the citations button from the main menu or directly viewing the scene.
 
