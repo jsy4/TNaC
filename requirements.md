@@ -18,14 +18,14 @@ The product will allow the user to explore different maps and fight the waves of
 
 ### 1.3 Acronyms, Abbreviations, Definitions
 
-TNaC (Three is Not a Crowd) - The developer group name  
-Maps / Lv - The different 3D levels with unique themes and difficulty. Lv is an abbreviation for level.  
-Attackers / enemies - Non-playable characters that the user must fend off in each level in order to advance in the game. Ragdoll is the name we are using to describe the models of the enemies.  
-Hearts - This will be the player's health.  
-Product/Project/Game - Refer to the project Virtual Retaliate.  
-Main page - Displays all the levels and user setting.  
-Level design - Level themes.  
-Gears - Computer with keyboard and mouse. 
+TNaC (Three is Not a Crowd) - The developer group name
+Maps / Lv - The different 3D levels with unique themes and difficulty. Lv is an abbreviation for level.
+Attackers / enemies - Non-playable characters that the user must fend off in each level in order to advance in the game. Ragdoll is the name we are using to describe the models of the enemies.
+Hearts - This will be the player's health.
+Product/Project/Game - Refer to the project Virtual Retaliate.
+Main page - Displays all the levels and user setting.
+Level design - Level themes.
+Gears - Computer with keyboard and mouse.
 
 
 ### 1.4 References
@@ -46,11 +46,11 @@ The product will operate in a 3D closed area where you will use WASD or arrow ke
 ### 2.2 Domain Model with Description
 
 ![sampleModel](https://user-images.githubusercontent.com/65105285/112574367-b9c09300-8db3-11eb-93e5-bc9bce23f6f2.png?raw=true)  
-Explaining of model: Main menu allows Player to choose weapons and select Levels with use of LvMgmt. Player has Hp = 10, Lv = 1 from the starting of the game. When contacting enemy, player healpth decreases and when dead, player goes to main page with Hp set to 10 again. Enemy is decreased by choice of player's Weapon and spawns from set locations and drops items when dead.
+Explaining of model: Main menu allows Player to choose weapons and select Levels with use of LvMgmt. Player has Hp = 10, Lv = 1 from the starting of the game. When contacting enemy, player health decreases and when dead, player goes to main page with Hp set to 10 again. The enemies health is decreased by the amount of damage that the users weapon does, and all enemies will have a chance of dropping a weapon when they die.
 
 
 ### 2.3 Product Functions (general)
-The program is designed for individual play. The movement of the Player will be limited; however, the game would be functional.
+The program is designed for individual play. The movement of the user will be limited; however, the game would be functional.
  
  
 ### 2.4 User Characteristics and Expectations
@@ -58,11 +58,11 @@ Our users will be in first-person, with the ability to look around the 3D enviro
 
 
 ### 2.5 Constraints
-Player health will not be able to be refilled at any point during a level. The player/user will get a certain amount of hearts at the beginning of the level depending on difficulty and player experience. At the beginning of each level the player's health will be returned to full.
+Player health will not be able to be refilled at any point during a level. At the beginning of each level the player's health will be returned to full.
 
 
 ### 2.6 Assumptions and Dependencies
-For our game, we will have a built in option to use keyboard and mouse bindings, either using WASD or arrow keys in order to move around. The user would also need to be able to run Unity while playinf our game. This is quite demanding, so I’m sure not all users will be able to run our game.
+For our game, we will have a built in option to use keyboard and mouse bindings, either using WASD or arrow keys in order to move around. The user would also need to be able to run Unity while playing our game. Unity is quite demanding on users CPU, so I’m sure not all users will be able to run our game.
 
 
 ## 3. Functional Requirements
