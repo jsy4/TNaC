@@ -15,7 +15,7 @@ Effort Estimation: 6 person hours
 
 Acceptance Test: Run the game simulation with different control types and the game camera anchored to the character’s head. Show that the user can control their character properly with  keyboard and mouse.
 
-## 1.1: Attacking Controls
+## 1.1: Attacking Controls (Not Completed / Future Work)
 As a player I want to be able to attack enemies with melee weapons using one button clicks so that I can kill enemies and survive the waves/complete the levels.
 
 Elaboration: Players should be able to attack/hit enemies at a close range with weapons obtainable in game. The range of weapons should be very short (within swinging distance) with a simple button click to complete the action. The hit box of enemies should also be reasonable and their health should go down with each successful attack until they die.
@@ -59,10 +59,10 @@ Effort Estimation: 3 hours
 
 Acceptance Test: Player loaded into multiple levels and moving around the environment for an adequate amount of time. The enemies should never spawn too close to the player at any time during the test or they must only spawn in designated locations regardless of user location. 
 
-## 3: Level Progression
+## 3: Level Progression 
 As a player, I want to be able to level up as I play so that I can become stronger and live longer.
 
-## 3.1: Experience Points
+## 3.1: Experience Points (Not Completed / Future Work)
 As a player, I want to be able to gain experience while I play so that I can level up.
 
 Elaboration: Users should have the ability to gain experience from the enemies that they defeat within each level.
@@ -73,7 +73,7 @@ Effort Estimation: 5 person hours
 
 Acceptance Test: Have a bar that shows experience points earned, as well as how far until a level up and whether or not you have leveled up recently.
 
-## 3.2: Point Distribution
+## 3.2: Point Distribution (Not Completed / Future Work)
 As a player, I want to be able to distribute my level up points in a way that makes my build/play style unique every time.
 
 Elaboration: Users should have the ability to customize themselves after leveling up that way they can have a unique experience every playthrough, whether it be to increase the amount of health they have or the amount of damage they do.
@@ -87,7 +87,7 @@ Acceptance Test: Have visible signs/statistics that show what your new skills, h
 ## 4: Weapon Customization
 As a player, I want to be able to customize what weapons I use throughout a playthrough so that I’m not the same every time.
 
-## 4.1: Different Weapons
+## 4.1: Different Weapons (Not Completed / Future Work)
 As a player, I want to be able to get new weapons as I progress so that I can become stronger through playing the game.
 
 Elaboration: Users will be able to defeat enemies and have a chance of getting a new weapon when leveling up. When the weapon is acquired, the user will be able to equip it from their inventory (see below) and use it.
@@ -98,7 +98,7 @@ Effort Estimation: 6 person hours
 
 Acceptance Test: Defeat enemies to level up and get a weapon with some random chance. Be able to inspect the weapon as well as equip it.
 
-## 4.2: Inventory
+## 4.2: Inventory (Not Completed / Future Work)
 As a player, I want to be able to pick up different weapons and hold onto them for later use, or empty out my inventory from ones I don’t want anymore so that I can use specific weapons in special circumstances.
 
 Elaboration: Users will be able to use and access all weapons they find, as well as get rid of ones they find obsolete or don’t want anymore.
@@ -109,7 +109,7 @@ Effort Estimation: 4 person hours
 
 Acceptance Test: Have a menu that the player can click on to access all the weapons they have picked up along their playthrough. Then, have an equip button that puts any weapon in their inventory in their hand, or a delete button that gets rid of any item in their hand.
 
-## 4.3: Weapon Effects
+## 4.3: Weapon Effects (Not Completed / Future Work)
 As a player, I want to be able to pick up weapons that have unique abilities so that I’m not just grabbing weapons that deal more damage every time.
 
 Elaboration: Users will be able to acquire weapons that can do extra effects such as knock enemies away more, slow them down, or deal more damage in the way of status effects such as fire, ice, or lightning.
